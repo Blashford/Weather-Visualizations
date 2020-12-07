@@ -1,4 +1,61 @@
-.movert {
-    position:absolute;
-    right: 1%;
+@media (min-width: 576px) {
+    .movert {
+        position:absolute;
+        right: 1%;
+    }
+    .pageheader {
+        font-family: 'Times New Roman', Times, serif;
+        color: #007bff;
+        font-weight: bold;
+    }
+}
+@media (min-width: 576px) {
+    body {
+        background-color: rgb(228, 226, 226);
+    }
+}
+@media (max-width: 576px) {
+    .navbar {
+        background-color: teal !important;
+    }
+
+    .navbar-collapse {
+        background-color: teal;
+    }
+    .pageheader {
+        font-family: 'Times New Roman', Times, serif;
+        color: teal;
+        font-weight: bold;
+    }
+}
+#datatable {
+    background-color: white;
+}
+.navheader {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box {
+    background-color: white;
+    width: auto;
+    height: 500px;
+    padding: 5%;
+}
+.box2 {
+    background-color: white;
+    width: auto;
+    height: 425px;
+    padding: 5%;
+}
+.sumplot {
+    width: 200px;
+    height: 200px;
+}
+.viz {
+    width: 150px;
+    height: 150px;
+}
+.ddcol {
+    color:white;
 }
