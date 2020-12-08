@@ -8,10 +8,13 @@
         color: #007bff;
         font-weight: bold;
     }
-}
-@media (min-width: 576px) {
     body {
         background-color: rgb(228, 226, 226);
+        padding-bottom: 25px;
+    }
+    .img-thumbnail {
+        border-width: 3px;
+        border-color: #007bff;
     }
 }
 @media (max-width: 576px) {
@@ -27,6 +30,10 @@
         color: teal;
         font-weight: bold;
     }
+    .img-thumbnail {
+        border-width: 3px;
+        border-color: teal;
+    }
 }
 #datatable {
     background-color: white;
@@ -39,23 +46,16 @@
 .box {
     background-color: white;
     width: auto;
-    height: 500px;
+    height: auto;
     padding: 5%;
 }
 .box2 {
     background-color: white;
     width: auto;
-    height: 425px;
+    height: auto;
     padding: 5%;
 }
 .sumplot {
     width: 200px;
     height: 200px;
-}
-.viz {
-    width: 150px;
-    height: 150px;
-}
-.ddcol {
-    color:white;
 }
