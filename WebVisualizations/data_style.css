@@ -20,7 +20,7 @@
         display: none;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .navbar {
         background-color: teal !important;
     }
