@@ -10,13 +10,13 @@
   </head>
   <body>
       <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand navheader" href="comp.html">Comparisons</a>
+        <a class="navbar-brand navheader" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse movert" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link active" href="comp.html">Comparisons</a>
             <a class="nav-item nav-link" href="data.html">Data</a>
             <a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Plots
@@ -27,9 +27,45 @@
               <a class="dropdown-item" href="cloudvis.html">Cloudiness</a>
               <a class="dropdown-item" href="windvis.html">Wind Speed</a>
             </div>
-            <a class="nav-item nav-link active" href="comp.html">Comparisons</a>
           </div>
         </div>
       </nav>
+      <div class="backgroundy">
+          <div class="container">
+              <div class="box mt-5">
+                  <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="pageheader">Comparison: Latitude vs X</h2>
+                        <hr>
+                        <p>Click on any plot to get an in-depth analysis</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-6 col-sm-12">
+                          <h3 class="pageheader text-center">vs. Max Temperature</h3>
+                          <a href="latvis.html"><img src="assets/images/Fig1.png" class="img-fluid"></a>
+                          <hr class="smol">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                          <h3 class="pageheader text-center">vs. Humidity</h3>
+                          <a href="humvis.html"><img src="assets/images/Fig2.png" class="img-fluid"></a>
+                          <hr class="smol">
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <h3 class="pageheader text-center">vs. Cloudiness</h3>
+                        <a href="cloudvis.html"><img src="assets/images/Fig3.png" class="img-fluid"></a>
+                        <hr class="smol">
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <h3 class="pageheader text-center">vs. Wind Speed</h3>
+                        <a href="windvis.html"><img src="assets/images/Fig4.png" class="img-fluid"></a>
+                        <hr class="smol">
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
     </body>
 </html>

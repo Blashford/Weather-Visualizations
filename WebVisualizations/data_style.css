@@ -4,7 +4,7 @@
         right: 1%;
     }
     .pageheader {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: #007bff;
         font-weight: bold;
     }
@@ -16,6 +16,9 @@
         border-width: 3px;
         border-color: #007bff;
     }
+    .smol {
+        display: none;
+    }
 }
 @media (max-width: 576px) {
     .navbar {
@@ -26,7 +29,7 @@
         background-color: teal;
     }
     .pageheader {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: teal;
         font-weight: bold;
     }
@@ -39,7 +42,7 @@
     background-color: white;
 }
 .navheader {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
@@ -58,4 +61,7 @@
 .sumplot {
     width: 200px;
     height: 200px;
+}
+.nav-item, .dropdown-item {
+    font-family: Arial, Helvetica, sans-serif;
 }
